@@ -18,8 +18,8 @@ def send_bark_message(message):
 
 # Schedule the reminder
 # schedule.every(1).minutes.do(send_bark_message, message)
-schedule.every().tuesday.at("10:30").do(send_bark_message, message)
-schedule.every().thursday.at("10:30").do(send_bark_message, message)
+schedule.every().tuesday.at("1:30").do(send_bark_message, message)
+schedule.every().thursday.at("1:30").do(send_bark_message, message)
 
 # Keep the program running
 while True:
