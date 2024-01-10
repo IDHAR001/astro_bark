@@ -19,7 +19,7 @@ def send_bark_message(message):
     requests.get(bark_url + message)
 
 send_bark_message(message)
-schedule.every().at("05:30").do(send_bark_message, message)
+schedule.every().thursday.at("05:30").do(send_bark_message, message)
 
 # Keep the program running
 while True:
