@@ -1,2 +1,4 @@
 requests
 schedule
+zhipuai
+google-generativeai
